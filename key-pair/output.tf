@@ -1,10 +1,10 @@
-# output "region" {
-#     value = "us-east-2"
-# }
-# output "key_name" { 
-#     value = aws_key_pair.ilearning-wordpress
+output "region" {
+    value = "us-east-2"
+}
+output "key_name" { 
+    value = aws_key_pair.ilearning-wordpress
   
-# }
-# output "key_id" {
-#     value = "aws_key_pair.ilearning=wordpress.id"
-# }
+}
+output "key_id" {
+    value = "aws_key_pair.ilearning=wordpress.id"
+}
