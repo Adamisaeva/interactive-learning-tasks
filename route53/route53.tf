@@ -5,3 +5,4 @@ resource "aws_route53_record" "www" {
   ttl     = "300"
   records = ["127.0.0.1"]
 }
+# added e 
