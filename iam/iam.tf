@@ -18,4 +18,9 @@ resource "aws_iam_user_group_membership" "example1" {
 
   ]
 }
-
+output "user" {
+  value = "bob"
+}
+output "groups" {
+  value = "sysusers"
+}
